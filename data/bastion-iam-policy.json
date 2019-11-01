@@ -11,10 +11,10 @@
                 "iam:GetGroup"
             ],
             "Resource": [
-                "arn:aws:kms:ap-south-1:536123028970:key/e8689629-e558-4a9e-a192-b128684eb052",
-                "arn:aws:lambda:ap-south-1:536123028970:function:BLESS",
-                "arn:aws:iam::536123028970:user/*",
-                "arn:aws:iam::536123028970:group/*"
+                "arn:aws:kms:ap-south-1:568123028970xxxxxx:key/xxxx",
+                "arn:aws:lambda:ap-south-1:536866123028970:function:BLESS",
+                "arn:aws:iam::5363087870xxxxxxx:user/*",
+                "arn:aws:iam::5366123028970xxxxx:group/*"
             ]
         },
         {
