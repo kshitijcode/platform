@@ -23,7 +23,7 @@ module "bastion" {
 
 // Bless Module Will be created as part of our platform tooling
 module "bless" {
-  source = "git@github.com:WynkLimited/bless.git//terraform//environments//prod"
+  source = "git@github.com:kshitijcode/blessMe.git//terraform//environments//prod"
   region = var.region
 }
 

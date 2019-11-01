@@ -12,8 +12,7 @@ resource "aws_security_group" "bastion" {
     # Opening to 0.0.0.0/0 can lead to security vulnerabilities.
     cidr_blocks = [
       "10.41.0.0/16",
-      "10.90.0.0/18",
-      "125.22.102.134/32",
+      "10.90.0.0/18"
     ]
   }
 
