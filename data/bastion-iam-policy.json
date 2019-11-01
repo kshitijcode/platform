@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "kms:Encrypt",
+                "lambda:InvokeFunction",
+                "iam:GetSSHPublicKey",
+                "iam:GetGroup"
+            ],
+            "Resource": [
+                "arn:aws:kms:ap-south-1:536123028970:key/e8689629-e558-4a9e-a192-b128684eb052",
+                "arn:aws:lambda:ap-south-1:536123028970:function:BLESS",
+                "arn:aws:iam::536123028970:user/*",
+                "arn:aws:iam::536123028970:group/*"
+            ]
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": "iam:ListSSHPublicKeys",
+            "Resource": "*"
+        }
+    ]
+}
